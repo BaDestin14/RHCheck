@@ -5,7 +5,7 @@ import json
 import sqlite3
 import re
 #import spacy
-from pdfminer.high_level import extract_text
+#from pdfminer.high_level import extract_text
 import pytesseract
 from PIL import Image
 from spacy.matcher import Matcher
