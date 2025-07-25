@@ -1,22 +1,12 @@
-import os
-import sys
-
-# Install dependencies using os.system for more direct execution
-os.system(f'{sys.executable} -m pip install spacy')
-os.system(f'{sys.executable} -m pip install pdfminer.six')
-os.system(f'{sys.executable} -m pip install pytesseract')
-os.system(f'{sys.executable} -m pip install streamlit')
-
-
 import streamlit as st
 import os
 import tempfile
 import json
 import sqlite3
 import re
-import spacy
+#import spacy
 from spacy import displacy
-from pdfminer.high_level import extract_text
+#from pdfminer.high_level import extract_text
 import pytesseract
 from PIL import Image
 from spacy.matcher import Matcher
