@@ -9,7 +9,7 @@ import re
 #from pdfminer.high_level import extract_text
 #import pytesseract
 from PIL import Image
-from spacy.matcher import Matcher
+#from spacy.matcher import Matcher
 import pandas as pd
 
 # --- NLTK and SpaCy Setup ---
