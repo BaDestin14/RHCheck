@@ -1,3 +1,14 @@
+%%writefile app.py
+import os
+import sys
+
+# Install dependencies using os.system for more direct execution
+os.system(f'{sys.executable} -m pip install spacy')
+os.system(f'{sys.executable} -m pip install pdfminer.six')
+os.system(f'{sys.executable} -m pip install pytesseract')
+os.system(f'{sys.executable} -m pip install streamlit')
+
+
 import streamlit as st
 import os
 import tempfile
