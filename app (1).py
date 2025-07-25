@@ -7,7 +7,7 @@ import re
 #import spacy
 #from spacy import displacy
 #from pdfminer.high_level import extract_text
-import pytesseract
+#import pytesseract
 from PIL import Image
 from spacy.matcher import Matcher
 import pandas as pd
