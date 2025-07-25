@@ -5,7 +5,7 @@ import json
 import sqlite3
 import re
 #import spacy
-from spacy import displacy
+#from spacy import displacy
 #from pdfminer.high_level import extract_text
 import pytesseract
 from PIL import Image
