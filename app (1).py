@@ -9,6 +9,8 @@ install('spacy')
 install('pdfminer.six')
 install('pytesseract')
 install('streamlit')
+
+
 import streamlit as st
 import os
 import tempfile
