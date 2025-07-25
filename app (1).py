@@ -12,20 +12,6 @@ from PIL import Image
 #from spacy.matcher import Matcher
 import pandas as pd
 
-# --- NLTK and SpaCy Setup ---
-# It's better to ensure these are downloaded before running the app
-# For a deployed app, these would be part of the setup/build process.
-# !python -m spacy download fr_core_news_sm
-
-# Initialiser le modèle SpaCy pour le français
-try:
-    nlp = spacy.load("fr_core_news_sm")
-except OSError:
-    print("Downloading 'fr_core_news_sm' model...")
-    os.system("python -m spacy download fr_core_news_sm")
-    nlp = spacy.load("fr_core_news_sm")
-
-
 # --- Database Setup ---
 DATABASE_NAME = 'cv_analysis.db'
 
