@@ -1,23 +1,10 @@
-import subprocess
-import sys
-
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# Install dependencies
-install('spacy')
-install('pdfminer.six')
-install('pytesseract')
-install('streamlit')
-
-
 import streamlit as st
 import os
 import tempfile
 import json
 import sqlite3
 import re
-import spacy
+#import spacy
 from pdfminer.high_level import extract_text
 import pytesseract
 from PIL import Image
